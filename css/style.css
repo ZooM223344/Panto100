@@ -1324,6 +1324,10 @@ body._lock {
     transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   }
 
+  .nav._active-scroll {
+    background-color: #FFFFFF;
+  }
+
   .nav._active::before {
     content: "";
     position: fixed;
@@ -1333,6 +1337,10 @@ body._lock {
     height: 110px;
     background-color: rgb(40, 42, 44);
     z-index: 2;
+  }
+
+  .nav._active-scroll._active::before {
+    background-color: #ffffff;
   }
 
   .nav ul {
@@ -1421,6 +1429,11 @@ body._lock {
     margin-top: 5rem;
   }
 
+  .Worcks-block__photo {
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+
   .Worcks-block__decor-big,
   .Worcks-block__decor-smoll {
     display: none;
@@ -1443,6 +1456,12 @@ body._lock {
 
   .Worcks-block-two__image {
     margin-left: 0;
+  }
+
+  .Worcks__block-two__photo-one {
+    overflow: hidden;
+    border-radius: 2rem;
+    padding-bottom: 0;
   }
 
   .Reviews {
